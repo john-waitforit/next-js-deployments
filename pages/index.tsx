@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import useSWR from 'swr';
-import { VersionResponseData } from './types';
+import { VersionResponseData } from '../src/types';
 
 const fetcher = (url: string) => fetch(url).then(res => res.json())
 
