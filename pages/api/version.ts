@@ -4,5 +4,5 @@ import { VersionResponseData } from '../../src/types'
 
 
 export default (req: NextApiRequest, res: NextApiResponse<VersionResponseData>) => {
-  res.status(200).json({ version: 'amplify-v1.0' })
+  res.status(200).json({ version: 'amplify-v1.1' })
 }
